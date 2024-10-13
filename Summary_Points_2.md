@@ -1,4 +1,4 @@
-# <font color="green"> <b> Summary Points 2 </b> </font>
+# <b> Summary Points 2 </b>
 
 <br>
 
