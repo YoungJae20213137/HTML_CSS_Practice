@@ -449,7 +449,7 @@ VScode도 extension 메뉴에서 설치하면 되는데 필자가 사용하는 �
 
 설치랑 셋팅법은 구글 검색을 추천한다. 
 
-VScode, Brackets 둘 다 있음
+VScode, Brackets 둘 다 있음.
 
  
 
