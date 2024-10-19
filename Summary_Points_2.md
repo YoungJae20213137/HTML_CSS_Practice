@@ -1,4 +1,4 @@
-r# <b> Summary Points 2 </b>
+# <b> Summary Points 2 </b>
 
 <br>
 
