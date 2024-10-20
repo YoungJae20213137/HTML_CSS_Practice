@@ -977,4 +977,87 @@ CSS 속성들 중엔 예전 브라우저에서 지원하지 않는 속성들이 
 <br>
 <br>
 
+## Font Awesome 아이콘 넣기
+
+### Font Awesome 5버전 
+
+https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+
+ 
+<br>
+ 
+
+### Font Awesome 다운받아 첨부하기 
+
+ 
+Font Awesome 홈페이지의 다운로드 메뉴에서 다운받아 압축을 풀면 여러개의 폴더가 나오는데, 
+
+이 중에 CSS, Webfonts 두개의 폴더를 나의 작업폴더에 복붙하면 된다. 
+
+그 후에 CSS 폴더 내의 all.css 라는 파일을 하나만 head 태그 안에 딱 첨부하면 설치 끝이다. 나머지 잔챙이 CSS 파일은 다 삭제해도 된다. 
+
+ 
+```
+<link href="작업폴더에 있는 all.min.css 파일 경로" rel="stylesheet">
+ ```
+
+ 
+
+ <br>
+
+ 
+
+### Font Awesome CDN으로 첨부하기 
+
+ 
+
+CSS파일을 호스팅해주는 고마운 사이트들이 있다.
+
+이 사이트가 제공하는 all.min.css 파일을 link태그로 첨부하면 직접 다운받지 않고도 동일한 CSS파일을 이용가능하다. 
+
+구글에 font awesome 5 cdnjs 이런 식으로 검색하면 된다. 
+
+ 
+
+ 
+```
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+```
+장점은 간편하고 빠르다는 것인데
+
+이 사이트가 다운이 되면 CSS 파일도 이용이 불가능해져서 불안정할 수 있다.
+
+ 
+
+ 
+
+ <br>
+
+ 
+
+ 
+
+### Font Awesome 아이콘 넣기
+
+ 
+
+1. Font Awesome 5버전 홈페이지의 icons 메뉴로 들어간 후 
+
+2. 마음에 드는 아이콘을 선택한 후
+
+3. 예제 코드를 HTML에 복붙하면 된다. 
+
+ 
+
+ 
+```
+<i class="fas fa-book"></i>
+```
+이러면 책 아이콘이 하나 나오게된다. 
+
+사이즈나 색 수정은 글자 수정하는 것과 똑같이 하면 된다.
+
+<br>
+<br>
+
 ## 
